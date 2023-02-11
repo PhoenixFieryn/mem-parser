@@ -1,0 +1,31 @@
+{
+	"name": "mem-parser",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/main.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint . --ext .ts",
+		"start": "nodemon src/main.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PhoenixFieryn/mem-parser.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/PhoenixFieryn/mem-parser/issues"
+	},
+	"homepage": "https://github.com/PhoenixFieryn/mem-parser#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.51.0",
+		"@typescript-eslint/parser": "^5.51.0",
+		"eslint": "^8.33.0",
+		"nodemon": "^2.0.20",
+		"prettier": "^2.8.4",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.5"
+	}
+}
